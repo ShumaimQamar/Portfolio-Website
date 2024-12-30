@@ -1,0 +1,213 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Portfolio</title>
+		<link rel="stylesheet" href="stylee.css">
+		<script src="https://kit.fontawesome.com/308aa3f478.js" crossorigin="anonymous"></script>
+	</head>
+	
+	<body>
+	<!----------------------HOME------------------------>
+		<div id="header">
+			<div class="head">
+				<nav>
+					<a href="#" class="logo"><span class="abc">P</span>ortfolio</a>
+					<ul id="menu">
+						<li><a href="#header">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#services">Services</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<i class="fas fa-times" onclick="closemenu()"></i>
+					</ul>
+					<i class="fas fa-bars" onclick="openmenu()"></i>
+				</nav>
+				<div class="front-text">
+					<p>UI/UX Designer</p>
+					<h1>Hi, I'm <span> Ariana</span> Jen <br> From Australia</h1>
+					<a href="#">Hire Me</a>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+	<!------------------------ABOUT------------------------>
+		<div id="about">
+			<div class="about page">
+				<div class="row">
+					<div class="column-1">
+						<img src="p12.jpg">
+					</div>
+					<div class="column-2">
+						<h1 class="about-me">About Me</h1>
+						<p>lorem, ipsum dolor sit amet consectetur adipising elit. Blanditis doloribus adipisci a porro repudiandae? Assumenda architecto, enim 
+						vel quis nostrum ut, maiores quas ratione dicta ipsam cupiditate sit similique undel Fugit minus impedit maxime, quae soluta quis cumque
+						perferendis! Doloribus quaerat, placeat iste facere, aspernatur ex cum veritatis laudantium, officia, non porro exercitationem incident 
+						quis dolore? Officia ex accusamus expedita optio, voluptatem.</p>
+						<div class="tab-titles">
+							<p class="tab-links active-link" onclick="opentab('education')">Education</p>
+							<p class="tab-links" onclick="opentab('skills')">Skills</p>
+							<p class="tab-links" onclick="opentab('experience')">Experience</p>
+						</div>
+						<div class="tab-contents active-tab" id="education">
+							<ul>
+								<li><span>2016</span><br>UI/UX Design Training at ET Institute</li>
+								<li><span>2016</span><br>MBA From MIT Bangalore</li>
+								<li><span>2014</span><br>BBA From ISM Bangalore</li>
+							</ul>
+						</div>
+						
+						<div class="tab-contents"  id="skills">
+							<ul>
+								<li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+								<li><span>Web Development</span><br>Web App Development</li>
+								<li><span>App Development</span><br>Buildng Android/iOS Apps</li>
+							</ul>
+						</div>
+						
+						<div class="tab-contents" id="experience">
+							<ul>
+								<li><span>2021-current</span><br>UI/UX Design Training at ET Institute</li>
+								<li><span>2019-2021</span><br>Team lead at StartApp LLC.</li>
+								<li><span>2017-2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+								<li><span>2016-2017</span><br>Internship at ekart eCommerce.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!------------------------SERVICES------------------------>
+		<div id="services">
+			<div class="services-page">
+				<h1 class="my-services">My Services</h1>
+				<div class="services-list">
+					<div>
+						<i class="fa-solid fa-code"></i>
+						<h2>Web Design</h2>
+						<p>ipsum dolor sit amet consectetur adipising elit. Blanditis doloribus  a porro repudiandae? Assumenda architecto, enim vel quis </p>
+						<a href="#">Learn More</a>
+					</div>
+					<div>
+						<i class="fa-solid fa-crop"></i>
+						<h2>UI/UX Design</h2>
+						<p>ipsum dolor sit amet consectetur adipising elit. Blanditis doloribus  a porro repudiandae? Assumenda architecto, enim vel quis </p>
+						<a href="#">Learn More</a>
+					</div>
+					<div>
+						<i class="fa-brands fa-app-store"></i>
+						<h2>App Design</h2>
+						<p>ipsum dolor sit amet consectetur adipising elit. Blanditis doloribus  a porro repudiandae? Assumenda architecto, enim vel quis </p>
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!------------------------PORTFOLIO------------------------>
+		<div id="portfolio">
+			<div class="portfolio-page">
+				<h1 class="my-portfolio">My Work</h1>
+				<div class="work-list">
+					<div class="work">
+						<img src="work-1.png">
+						<div class="layer">
+							<h3>Social Apps</h3>
+							<p>This App connects you to the talented<br> people around the world. Download it <br>from playstore.</p>
+							<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+						</div>
+					</div>
+				
+					<div class="work">
+						<img src="work-2.png">
+						<div class="layer">
+							<h3>Music App</h3>
+							<p>This App connects you to the talented <br>people around the world. Download it <br>from playstore.</p>
+							<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+						</div>
+					</div>
+				
+					<div class="work">
+						<img src="work-3.png">
+						<div class="layer">
+							<h3>Online Shopping App</h3>
+							<p>This App connects you to the talented <br>people around the world. Download it <br>from playstore.</p>
+							<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+						</div>
+					</div>
+				</div>
+				<a href="#" class="button">See More</a>
+			</div>
+		</div>
+		
+		<!------------------------CONTACT------------------------>
+		<div id="contact">
+			<div class="contact-page">
+				<div class="row">
+					<div class="left">
+						<h1 class="contact-me">Contact Me</h1>
+						<p><i class="fas fa-paper-plane"></i>arianajen@gmail.com</p>
+						<p><i class="fas fa-phone-square-alt"></i>0123456789<p>
+						<div class="icons">
+							<a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+							<a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
+							<a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+							<a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+						</div>
+					</div>
+					<div class="right">
+						<form>
+							<label for="name">Name:</label><br>
+							<input type="text" id="name" placeholder="Enter your name" required><br><br>
+							<label for="email">Email:</label><br>
+							<input type="email" id="email" placeholder="Enter Your Email"><br><br>
+							<label for="message">Message:</label><br>
+							<textarea name="message" rows="6"  placeholder="Enter Your Message"></textarea><br>
+							<button type="submit" class="button button2">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+				<p>Copyright <i class="fa-regular fa-copyright"></i> Araina Jen. <p>
+		</div>
+		
+		
+		
+		
+		<script>
+		alert("This is a Portfolio Website");
+			var tablinks = document.getElementsByClassName("tab-links");
+			var tabcontents = document.getElementsByClassName("tab-contents");
+			
+			function opentab(tabname){
+				for(tablink of tablinks){
+					tablink.classList.remove("active-link");
+				}
+				for(tabcontent of tabcontents){
+					tabcontent.classList.remove("active-tab");
+					}
+					
+				event.currentTarget.classList.add("active-link");
+				document.getElementById(tabname).classList.add("active-tab");
+			}
+		</script>
+		
+		<!------------javascript for menus-------------->
+		<script>
+			var menu= document.getElementById("menu");
+			
+			function openmenu(){
+				menu.style.right="0";
+				}
+			function closemenu(){
+				menu.style.right="-200";
+				}
+		</script>
+	</body>
+	
+</html>
